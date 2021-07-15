@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class ScreenshotTest {
+public class Screenshot {
     public static WebDriver driver;
     public String demoUrl = "http://practice.automationtesting.in/" ;
 
