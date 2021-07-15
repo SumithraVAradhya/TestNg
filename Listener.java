@@ -2,7 +2,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listener extends ScreenshotTest implements ITestListener {
+public class Listener extends Screenshot implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
